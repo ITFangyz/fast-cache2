@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>example</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
@@ -15,7 +15,15 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <p>fast-cache test</p>
+        <p>example</p>
         <script src="../release/bundle.js" async defer></script>
+        <script>
+            var FC = window.FastCache;
+            var cache = new FC();
+            cache.set('a',100);
+            alert(cache.get('a'));
+            alert('100');
+        </script>
+       
     </body>
 </html>
