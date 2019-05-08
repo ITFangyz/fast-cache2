@@ -7,6 +7,8 @@
 
 ##安装下载
 
+-下载地址 https://github.com/ITFangyz/fast-cache2/releases
+
 ##快速使用
 
 简单接入的文档
